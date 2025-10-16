@@ -29,3 +29,6 @@ Während der Programmierung fiel mir auf, dass eine Abbruchbedingung, wenn ein "
 ## Der Kreis
 Durch das type casting int wird das ganze natürlich ungenau. In diesem Fall habe ich aber einfach gecastedund die einfache Variante genutzt, um einen floating point error zu verhindern. Da ich die Größe des Spielfeldes variabel wählen kann,
 hat es mir für diese Zwecke gereicht.
+
+## Finale
+Interessant wird dieser Gedanke natürlich erst, wenn man ihn weiterspinnt, am Beispiel für Umfragen: Wie viele verschiedene Personen muss ich interviewen, damit ich aus z.B. Politischem Lager A (Kreis) und Politischem Lager B (Quadrat) an das wirkliche Ergebnis komme, d.h. das Ergebnis, was den Zusammenhang zwischen diesen beiden am besten beschreibt (In unserem Fall PI).
