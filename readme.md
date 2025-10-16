@@ -24,4 +24,8 @@ einfach ausprobieren kann (Mit etwas längerem Nachdenken ist es natürlich klar
 Darum habe ich einfach losprogrammiert.
 
 ## Etwas Rechenzeit sparen
-Während der Programmierung fiel mir auf, dass eine Abbruchbedingung, wenn ein "ball" außerhalb von `x` lag, sinnvoll wäre, Denn dadurch erspart man sich einen zweiten Vergleich für `y`, da der Ball ja sowieso außerhalb lag.
+Während der Programmierung fiel mir auf, dass eine Abbruchbedingung, wenn ein "ball" außerhalb von `x` lag, sinnvoll wäre, denn dadurch erspart man sich einen zweiten Vergleich für `y`, da der Ball ja sowieso außerhalb lag.
+
+## Der Kreis
+Durch das type casting int wird das ganze natürlich ungenau. In diesem Fall habe ich aber einfach gecastedund die einfache Variante genutzt, um einen floating point error zu verhindern. Da ich die Größe des Spielfeldes variabel wählen kann,
+hat es mir für diese Zwecke gereicht.
